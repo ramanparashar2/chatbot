@@ -1,7 +1,7 @@
 langgraph 
 langchain 
 langchain_community
-simsimd==3.6.7
+simsimd>=3.6.3,<4.0.0
 langchain-pinecone==0.0.1
 pinecone
 langchain_openai
