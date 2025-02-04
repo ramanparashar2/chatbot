@@ -2,7 +2,7 @@ langgraph
 langchain 
 langchain_community
 simsimd>=5.7.3
-langchain-pinecone==0.0.1
+langchain-pinecone
 pinecone
 langchain_openai
 langchain_core
