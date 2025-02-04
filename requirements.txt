@@ -1,7 +1,7 @@
 langgraph 
 langchain 
 langchain_community
-langchain-pinecone=0.2.2
+langchain-pinecone==0.2.2
 pinecone
 langchain_openai
 langchain_core
