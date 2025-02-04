@@ -18,4 +18,3 @@ pdfplumber
 fastapi 
 uvicorn 
 python-multipart
-simsimd>=4.4.0
