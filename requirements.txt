@@ -1,7 +1,7 @@
 langgraph 
 langchain 
 langchain_community
-langchain_pinecone 
+langchain-pinecone==0.0.1
 pinecone
 langchain_openai
 langchain_core
@@ -18,4 +18,4 @@ pdfplumber
 fastapi 
 uvicorn 
 python-multipart
-simsimd
+simsimd>=3.6.3,<4.0.0
