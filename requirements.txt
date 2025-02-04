@@ -5,7 +5,6 @@ langchain_pinecone
 pinecone
 langchain_openai
 langchain_core
-dotenv
 pydantic
 ipython
 pymongo
