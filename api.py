@@ -58,7 +58,10 @@ class ChatResponse(BaseModel):
     
 #     result = await extract_data(urls, files = [])
 #     return result
-    
+
+@app.get("/")
+def read_root():
+    return {"message": "Backend Connected Successfully"}
 
 @app.post("/init_session")
 async def init_session():
