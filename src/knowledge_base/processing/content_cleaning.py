@@ -1,10 +1,7 @@
-
-
 from bs4 import BeautifulSoup
 from typing import List, Dict
 
 class ContentCleaning:
-    
     def clean_html(self, html_content: str) -> str:
         """Clean HTML content and extract meaningful text"""
         try:
