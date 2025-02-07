@@ -16,6 +16,10 @@ from src.knowledge_base.config.knowledge_base_route import router as knowledge_b
 
 app = FastAPI(title="AI Agent API")
 
+@app.get("/")
+def read_root():
+    return {"message": "Backend Connected Successfully"}
+
 # CORS configuration
 app.add_middleware(
     CORSMiddleware,
@@ -59,9 +63,7 @@ class ChatResponse(BaseModel):
 #     result = await extract_data(urls, files = [])
 #     return result
 
-@app.get("/")
-def read_root():
-    return {"message": "Backend Connected Successfully"}
+
 
 @app.post("/init_session")
 async def init_session():
@@ -126,7 +128,7 @@ async def init_session():
 #         raise HTTPException(status_code=404, detail="Session not found")
 #     return sessions[session_id]["history"]
 
-# if __name__ == "__main__":
-#     # create_flow()
-#     import uvicorn
-#     uvicorn.run(app, host="0.0.0.0", port=8000)
+if __name__ == "__main__":
+    # create_flow()
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
