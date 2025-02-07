@@ -4,7 +4,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 # from sentence_transformers import SentenceTransformer
 from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override=True)
 
 
 import logging

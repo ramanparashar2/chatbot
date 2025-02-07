@@ -12,7 +12,7 @@ from typing import Literal, List, TypedDict
 
 
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override=True)
 
 prompt = hub.pull("hwchase17/openai-tools-agent")
 
